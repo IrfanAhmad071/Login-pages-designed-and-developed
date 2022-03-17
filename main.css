@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form_container{
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0 0 10px #000;
+    display: flex;
+}
+.col_left{
+    width: 50%;
+    padding: 50px;
+}
+.col_left p{
+    font-size: 14px;
+    text-align: center;
+}
+.col_right{
+    width: 50%;
+    background-image: url(https://img.freepik.com/free-vector/abstract-banner-background-with-red-shapes_1361-3348.jpg?size=626&ext=jpg);
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.col_left h2{
+    color: purple;
+    text-align: center;
+}
+.form_field{
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid grey;
+    border-left: 4px solid rgb(65, 29, 223);
+    display: flex;
+    align-items: center;
+    background-color: rgb(245, 241, 241);
+}
+.form_field1{
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 50px;
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+}
+.icon{
+    width: 40px;
+    color: purple;
+    text-align: center;
+}
+.inputfield{
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.inputcheck{
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.inputcheck a{
+    text-decoration: none;
+}
+.inputcheck a:hover{
+    color: rgb(88, 88, 231);
+    text-decoration: none;
+}
+.btnsubmit{
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(88, 88, 231);
+    color: white;
+}
+.btnsubmit:hover{
+    background-color: transparent;
+    color: purple;
+}
+.content{
+    color: white;
+    text-align: center;
+}
+.content p{
+    font-size: 14px;
+}
+.hr{
+    text-align: center;
+    margin: auto;
+}

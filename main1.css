@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    background-color: bisque;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form_container{
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0 0 10px #000;
+    display: flex;
+}
+.col_left{
+    width: 40%;
+    padding: 50px;
+}
+.col_right{
+    width: 60%;
+    background-image: linear-gradient(120deg, rgb(0, 162, 255), rgb(87, 0, 128));
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+.col_left h2{
+    color: purple;
+    text-align: center;
+}
+.form_field{
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.form_field1{
+    width: 96%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.icon{
+    width: 40px;
+    color: purple;
+    text-align: center;
+}
+.inputfield{
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.inputcheck{
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.inputcheck a{
+    text-decoration: none;
+}
+.btnsubmit{
+    width: 40%;
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(87, 87, 216);
+    color: white;
+    margin: auto;
+}
+.btnsubmit:hover{
+    background-color: transparent;
+    color: purple;
+    border: 1px solid purple;
+}
+.content{
+    margin-top: auto;
+    color: white;
+}
+.social{
+    margin: 20px auto;
+    text-align: center;
+    display: flex;
+}
+.social ul{
+    display: flex;
+    list-style-type: none;
+    /* text-align: center; */
+    margin: 0px 20px 20px 30px;
+}
+.social ul li{
+    margin-left: 5px;
+}
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 8px 3px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
